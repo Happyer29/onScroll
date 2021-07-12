@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  // width: 3500px;
+  // overflow-x: scroll;
+}
+
+div {
+  height: 100px;
+  width: 200px;
+  margin: 0px 20px 20px 0px;
+  // float: left;
+  background: rgb(25, 0, 255);
+}
+
+#window {
+  height: auto;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  background: #000;
+  position: fixed;
+}
+
+#active {
+  background: #ff0000;
+}
